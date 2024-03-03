@@ -1,0 +1,16 @@
+﻿@model Orderdetail
+
+<form asp-action="Checkout" method="post" class="form-horizontal" role="form">
+    <h4>Please confirm your purchase</h4>
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-5">
+            <input type="submit" class="btn btn-primary" value="Complete Order" />
+        </div>
+    </div>
+</form>
+@*  /*Code Attribute
+* Source:https://youtu.be/j8XoyxeZgP8?si=LUrve5S1tyovpIZM
+* Creater :LearnWithMe #2 Bokhandel Webbshop| Cart +Checkout|ASP.NET core MVC Projekt
+*/ *@
