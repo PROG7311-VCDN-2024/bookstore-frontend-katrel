@@ -2,12 +2,14 @@
 using sprint_books.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace sprint_books.Controllers
 { /*Code Attribute
 * Source:https://youtu.be/3rAD03PFQlQ?si=ZBh2GEcJz4-9o8mE
 * Creater :LearnWithMe#1 Bokhandel Webbshop|ASP.NET Core MVC Projekt
 */
+    
     public class StoreController : Controller
     {
         private readonly SprintContext _context;
@@ -16,6 +18,7 @@ namespace sprint_books.Controllers
         {
             _context = context;
         }
+        
         public async Task<IActionResult> Index(string searchString, string minPrice, string maxPrice)
         {
             var books = _context.Books.Select(b => b);

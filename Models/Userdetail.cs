@@ -6,6 +6,7 @@ namespace sprint_books.Models;
 public partial class Userdetail
 {
     public string Username { get; set; } = null!;
+    public string Id { get; set; } = null!;
 
     public string? Password { get; set; }
 

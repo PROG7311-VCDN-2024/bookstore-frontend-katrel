@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +14,7 @@ namespace sprint_books.Controllers
 * Source:https://youtu.be/3rAD03PFQlQ?si=ZBh2GEcJz4-9o8mE
 * Creater :LearnWithMe#1 Bokhandel Webbshop|ASP.NET Core MVC Projekt
 */
-
+    
     public class BookController : Controller
     {
         private readonly SprintContext _context;
@@ -30,6 +31,7 @@ namespace sprint_books.Controllers
         }
 
         // GET: Book/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -46,7 +48,7 @@ namespace sprint_books.Controllers
 
             return View(book);
         }
-
+        [Authorize(Roles = "Admin")]
         // GET: Book/Create
         public IActionResult Create()
         {

@@ -61,7 +61,7 @@ namespace sprint_books.Controllers
                 if (existingUser != null)
                 {
                     TempData["Message"] = "Login successful!";
-                    return RedirectToAction("Create", "Module"); // Redirect to the index page of the module
+                    return RedirectToAction("Index", "Store"); 
                 }
                 else
                 {

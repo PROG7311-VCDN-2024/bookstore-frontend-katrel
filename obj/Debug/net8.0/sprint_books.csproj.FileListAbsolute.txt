@@ -264,3 +264,11 @@ C:\Users\lab_services_student\Desktop\Katrel\sprint_books\obj\Debug\net8.0\refin
 C:\Users\lab_services_student\Desktop\Katrel\sprint_books\obj\Debug\net8.0\sprint_books.pdb
 C:\Users\lab_services_student\Desktop\Katrel\sprint_books\obj\Debug\net8.0\sprint_books.genruntimeconfig.cache
 C:\Users\lab_services_student\Desktop\Katrel\sprint_books\obj\Debug\net8.0\ref\sprint_books.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\obj\Debug\net8.0\sprint_books.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\lab_services_student\Desktop\Katrel\sprint_books\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
